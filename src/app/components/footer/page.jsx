@@ -5,13 +5,13 @@ export default async function Footer() {
 		<div className={styles.footer}>
 			<div className={styles.FooterLeftContainer}>
 				<a
-					href="https://stats.uptimerobot.com/Fxp7SE5Ll3"
+					href="https://www.facebook.com/profile.php?id=100069572806122"
 					target="_new"
 				>
-					Status
+					Facebook
 				</a>
 				<a
-					href="https://github.com/real-zephex/Dramalama"
+					href="https://github.com/Xerabmulac"
 					target="_new"
 				>
 					Github
@@ -21,13 +21,13 @@ export default async function Footer() {
 			<div className={styles.FooterRightContainer}>
 				<a
 					style={{ color: "#EBCB8B" }}
-					href="https://dramalama.vercel.app"
+					href="/"
 				>
 					Vercel
 				</a>
 				<a
 					style={{ color: "	#A3BE8C" }}
-					href="https://dramalama.netlify.app"
+					href="/"
 				>
 					Netlify
 				</a>
