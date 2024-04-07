@@ -8,7 +8,7 @@ export default async function Manga() {
 			<div className={styles.Hero}>
 				<div className={styles.WelcomeContainer}>
 					<div className={styles.WelcomeText}>
-						Manga madness is here
+						Xer Manga is here
 					</div>
 					<SearchBar />
 				</div>
@@ -47,11 +47,11 @@ export default async function Manga() {
 						fontFamily: "Poppins",
 					}}
 				>
-					Welcome to Dramalama Manga
+					Welcome to Xer Manga
 				</p>
 				<p style={{ marginTop: -10 }}>
 					Dive into a world where action jumps off the page and
-					pictures paint a thousand words. Dramalama Manga is a site
+					pictures paint a thousand words. Xer Manga is a site
 					that will immerse you in stunning illustrations and compel
 					you to lose yourself in thrilling narratives.
 				</p>
