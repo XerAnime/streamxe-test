@@ -1,0 +1,60 @@
+.RecentText {
+	display: flex;
+	align-items: center;
+}
+
+.RecentText p {
+	font-size: 26px;
+	margin: 5px;
+	color: var(--soft-purple);
+	font-family: "Poppins";
+}
+
+.RecentText span {
+	margin-top: 6px;
+}
+
+.Recent {
+	display: flex;
+	overflow-x: auto;
+}
+
+.Recent::-webkit-scrollbar {
+	height: 5px;
+}
+
+.Recent::-webkit-scrollbar-thumb {
+	background-color: #444444;
+	border-radius: 5px;
+}
+
+.RecentEntries {
+	margin: 7px;
+	transition: transform 0.1s linear;
+}
+
+.RecentEntries:hover {
+	transition: transform 0.1s linear;
+	transform: scale(0.97);
+}
+
+.RecentEntries p {
+	text-align: center;
+	margin: 5px auto;
+	width: 140px;
+	font-family: "Atkinson Hyperlegible";
+}
+
+.RecentEntries p::-webkit-scrollbar {
+	width: 5px;
+}
+
+.Recent p::-webkit-scrollbar-thumb {
+	background-color: #444444;
+	border-radius: 5px;
+}
+
+.RecentImage {
+	border-radius: 5px;
+	aspect-ratio: auto;
+}

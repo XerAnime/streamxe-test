@@ -1,0 +1,12 @@
+.loadingContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 85dvh;
+}
+
+.loadingText {
+	color: white;
+	font-family: "Lato";
+	font-size: 20px;
+}

@@ -1,0 +1,60 @@
+.TrendingText {
+	display: flex;
+	align-items: center;
+}
+
+.TrendingText p {
+	font-size: 26px;
+	margin: 5px;
+	color: var(--soft-purple);
+	font-family: "Poppins";
+}
+
+.TrendingText span {
+	margin-top: 6px;
+}
+
+.trending {
+	display: flex;
+	overflow-x: auto;
+}
+
+.trending::-webkit-scrollbar {
+	height: 5px;
+}
+
+.trending::-webkit-scrollbar-thumb {
+	background-color: #444444;
+	border-radius: 5px;
+}
+
+.trendingEntries {
+	margin: 7px;
+	transition: transform 0.2s linear;
+}
+
+.trendingEntries:hover {
+	transition: transform 0.2s linear;
+	transform: scale(0.97);
+}
+
+.trendingEntries p {
+	text-align: center;
+	margin: 5px auto;
+	width: 140px;
+	font-family: "Atkinson Hyperlegible";
+}
+
+.trendingEntries p::-webkit-scrollbar {
+	width: 5px;
+}
+
+.trendingEntries p::-webkit-scrollbar-thumb {
+	background-color: #444444;
+	border-radius: 5px;
+}
+
+.trendingImage {
+	border-radius: 5px;
+	aspect-ratio: auto;
+}

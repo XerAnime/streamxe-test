@@ -1,0 +1,27 @@
+.welcomeContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 85dvh;
+	max-width: 500px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.welcomeContainer p {
+	font-family: "Quicksand";
+	font-size: 20px;
+	color: white;
+}
+
+.auth button {
+	padding: 5px;
+	margin: 5px;
+	font-family: "Atkinson Hyperlegible";
+	font-size: 16px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	background-color: var(--neon-green);
+}
