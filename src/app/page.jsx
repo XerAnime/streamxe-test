@@ -14,7 +14,7 @@ export default function Home() {
 					priority
 				></Image>
 				<p>
-					Hey there, welcome to Dramalama. We are excited to have you
+					Hey there, welcome to XerStream. We are excited to have you
 					on board.
 				</p>
 			</div>
