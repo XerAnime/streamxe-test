@@ -11,7 +11,7 @@ export default function Header() {
 					style={{ color: "black", textDecoration: "none" }}
 				>
 					<p style={{ fontSize: "26px", color: "var(--pastel-red)" }}>
-						Dramalama
+						XerStream
 					</p>
 				</Link>
 				<div className={styles.rightNav}>
