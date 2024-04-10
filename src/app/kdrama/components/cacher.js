@@ -3,7 +3,7 @@
 export default async function PreFetchVideoLinks(data, dramaId) {
 	try {
 		const fetchPromises = data.map(async (element) => {
-			const link = `https://consumet-api-di2e.onrender.com/movies/dramacool/watch?episodeId=${element.id}&mediaId=${dramaId}`;
+			const link = `https://consumet-api-aecl.onrender.com/movies/dramacool/watch?episodeId=${element.id}&mediaId=${dramaId}`;
 			await fetch(link, { cache: "force-cache" });
 		});
 
