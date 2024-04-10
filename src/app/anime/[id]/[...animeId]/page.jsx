@@ -74,7 +74,7 @@ export default async function Video({ params }) {
 
 async function getVideoLink(id) {
 	const res = await fetch(
-		"https://consumet-api-di2e.onrender.com/anime/gogoanime/watch/" + id
+		"https://consumet-api-uoen.onrender.com/anime/gogoanime/watch/" + id
 	);
 	const data = res.json();
 	return data;
@@ -82,7 +82,7 @@ async function getVideoLink(id) {
 
 async function getAnimeInfo(anime_id) {
 	const res = await fetch(
-		"https://anime-sensei-api.vercel.app/anime/gogoanime/info/" + anime_id,
+		"https://consumet-api-uoen.onrender.com/anime/gogoanime/info/" + anime_id,
 		{ next: { revalidate: 7200 } }
 	);
 	const data = await res.json();
