@@ -20,8 +20,7 @@ export default function Home() {
 						</Link>
 					</div>
 					<div className={styles.kdrama}>
-						<Link
-							href={"/kdrama"}>
+						<Link href={"/kdrama"}
 							style={{ pointerEvents: "none" }}
 						>
 							<h2>Kdrama - Maintainence</h2>
