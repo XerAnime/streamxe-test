@@ -62,7 +62,7 @@ export default async function DramaInfo({ params }) {
 
 async function getDramaInfo(id) {
 	const res = await fetch(
-		`https://consumet-api-di2e.onrender.com/movies/dramacool/info?id=${id}`,
+		`https://consumet-api-aecl.onrender.com/movies/dramacool/info?id=${id}`,
 		{ next: { revalidate: 86400 } }
 	);
 	const data = await res.json();
