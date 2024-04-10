@@ -70,7 +70,7 @@ export default async function AnimeInfo({ params }) {
 
 async function getAnimeInfo(anime_id) {
 	const res = await fetch(
-		"https://anime-sensei-api.vercel.app/anime/gogoanime/info/" + anime_id,
+		"https://consumet-api-uoen.onrender.com/anime/gogoanime/info/" + anime_id,
 		{ next: { revalidate: 7200 } }
 	);
 	const data = await res.json();
